@@ -1,2 +1,89 @@
-h1 {color: red;
-background-color: green;}
+/*Global*/
+
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+body {
+ margin: 0;
+ font-size: 16px;
+ line-height: 1.7;
+    }
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+section {
+    padding: 96px 0;
+    }
+/*Navigation*/
+.first {
+	background-image: url("https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.navigation {
+    padding: 12px 0;
+    }
+.navgation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    }
+.navigation li {
+   display: inline;
+    }
+
+.navigation a:hover {
+    color: $color-two;
+    }
+
+/*Splash*/
+.splash {
+   min-height: 500px;
+   display: flex;
+    }
+.splash-inner {
+    margin: auto;
+    max-width: 70%;
+    }
+.page-title {
+    margin: 0;
+    font-size: 72px;
+    word-spacing: -24px;
+    line-height: 1.2;
+   font-weight: 700;
+    }
+.page-subtitle {
+    margin: 24px 0;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: bold;
+    }
+ .btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    transition: $transition;
+     }  
+ .btn-one {
+     border-color: yellow;
+     color: white;
+     background-image: linear-gradient(90deg, 
+     yellow 50%, transparent 50%); 
+     background-position: 100% 0;
+     background-size: 300%;
+ }
+ .btn:hover {
+     background-position: 0 100%;
+     color: white;
+     }   
+  .btn-one:hover {
+     color: orange;
+      } 
