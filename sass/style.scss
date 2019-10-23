@@ -20,70 +20,80 @@ section {
 .first {
 	background-image: url("https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
+
+
 .navigation {
     padding: 12px 0;
     }
+.navigation a{ 
+     color: white;
+}
+.navbar-brand {
+  color: yellow;
+ font-family: 'Pacifico', cursive;
+}
+
 .navgation ul {
-    padding: 0;
-    margin: 0;
     list-style-type: none;
     }
 .navigation li {
    display: inline;
+   float: right;
+    margin: 10px;
     }
 
 .navigation a:hover {
-    color: $color-two;
+    color: yellow;
     }
 
 /*Splash*/
 .splash {
    min-height: 500px;
    display: flex;
+  
     }
 .splash-inner {
     margin: auto;
     max-width: 70%;
     }
 .page-title {
-    margin: 0;
-    font-size: 72px;
-    word-spacing: -24px;
-    line-height: 1.2;
-   font-weight: 700;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin: 24px ;
+   font-style: italic;
+    text-align: center; 
     }
 .page-subtitle {
-    margin: 24px 0;
-    font-weight: 400;
-    font-size: 16px;
-    font-weight: bold;
-    }
+    margin: 0;
+    font-size: 50px;
+    line-height: 1.2;
+   font-weight: 700;
+    color: white;
+  text-align: center 
+  }
  .btn {
     display: inline-block;
     min-width: 160px;
-    margin: 24px auto 0 auto;
+    margin: 24px 170px;
     padding: 16px;
-    border-radius: 5px;
     font-size: 16px;
     text-align: center;
-    text-decoration: none;
     cursor: pointer;
-    border-width: 2px;
+    border-width: 3px;
     border-style: solid;
-    transition: $transition;
-     }  
- .btn-one {
-     border-color: yellow;
-     color: white;
-     background-image: linear-gradient(90deg, 
-     yellow 50%, transparent 50%); 
+    background: yellow;
+    border-color: yellow;
+    color: white;
+   background-image: linear-gradient(90deg, 
+    yellow 50%, transparent 50%); 
      background-position: 100% 0;
      background-size: 300%;
- }
+     
  .btn:hover {
      background-position: 0 100%;
      color: white;
      }   
   .btn-one:hover {
-     color: orange;
+     color: red;
       } 
