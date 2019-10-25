@@ -18,4 +18,189 @@ body {
 section {
   padding: 96px 0;
 }
+
+/*Navigation*/
+.first {
+  background-image: url("https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.navigation {
+  padding: 12px 0;
+}
+
+.navigation a {
+  color: white;
+}
+
+.navbar-brand {
+  color: yellow;
+  font-family: 'Pacifico', cursive;
+}
+
+.navgation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline;
+  float: right;
+  margin: 10px;
+}
+
+.navigation a:hover {
+  color: yellow;
+}
+
+/*Splash*/
+.splash {
+  min-height: 500px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+}
+
+.page-title {
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  margin: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+.page-subtitle {
+  margin: 0;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px 170px;
+  padding: 16px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-width: 3px;
+  border-style: solid;
+  background: yellow;
+  border-color: yellow;
+  color: white;
+  background-image: linear-gradient(90deg, yellow 50%, transparent 50%);
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: white;
+}
+
+.btn-one:hover {
+  color: red;
+}
+
+/*Service*/
+.box {
+  -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
+  position: relative;
+  text-align: center;
+}
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.section-title {
+  font-size: 35px;
+  text-align: center;
+  margin: 24px 0 10px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  text-align: center;
+  margin: 0 0 80px;
+  font-family: 'Pacifico', cursive;
+  color: grey;
+}
+
+.service i {
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  color: #FFD700;
+  border-radius: 50%;
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  margin: 12px;
+}
+
+/*portfolio*/
+.portfolio {
+  background-color: #DCDCDC;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.row {
+  margin: 0 auto;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 30px 30px;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.portfolio-subtitle {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: grey;
+}
+
+/*Footer*/
+.footer ul {
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.footer ul li {
+  display: inline;
+  font-size: 0;
+}
+
+.footer ul li i {
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

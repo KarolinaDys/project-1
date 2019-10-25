@@ -7,15 +7,15 @@ body {
  margin: 0;
  font-size: 16px;
  line-height: 1.7;
-    }
+}
 .container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
-    }
+}
 section {
     padding: 96px 0;
-    }
+}
 /*Navigation*/
 .first {
 	background-image: url("https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -24,7 +24,7 @@ section {
 
 .navigation {
     padding: 12px 0;
-    }
+}
 .navigation a{ 
      color: white;
 }
@@ -35,27 +35,27 @@ section {
 
 .navgation ul {
     list-style-type: none;
-    }
+}
 .navigation li {
    display: inline;
    float: right;
     margin: 10px;
-    }
+}
 
 .navigation a:hover {
     color: yellow;
-    }
+}
 
 /*Splash*/
 .splash {
    min-height: 500px;
    display: flex;
   
-    }
+}
 .splash-inner {
     margin: auto;
     max-width: 70%;
-    }
+ }
 .page-title {
     font-weight: 400;
     font-size: 24px;
@@ -89,14 +89,15 @@ section {
     yellow 50%, transparent 50%); 
      background-position: 100% 0;
      background-size: 300%;
+}
      
  .btn:hover {
      background-position: 0 100%;
      color: white;
-     }   
+}   
   .btn-one:hover {
      color: red;
-      } 
+} 
        /*Service*/
    .box {
      flex: 0 0 33.333%;
@@ -107,13 +108,13 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-     }   
+}   
  .section-title {
      font-size: 35px;
      text-align: center;
       margin: 24px 0 10px;
      font-weight: bold;
-     }   
+}   
 .section-subtitle {
   text-align: center;
   margin:  0 0 80px;
@@ -150,7 +151,7 @@ section {
 .portfolio-title {
      text-align: center;
      font-weight: bold;
-     }   
+}   
 .portfolio-subtitle {
   text-align: center;
   font-family: 'Pacifico', cursive;
@@ -161,15 +162,15 @@ section {
     margin: 0 auto; 
    padding: 24px;
    
-     }
+     
     
-.footer li{
+    li{
   display: inline;
   font-size: 0;
  
-    }
+}
 
-.footer li i{
+ li i{
      font-size: 25px;
      color: white;
      background-color: black;
@@ -178,4 +179,5 @@ section {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    }
+}
+}
